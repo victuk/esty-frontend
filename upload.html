@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Privacy Preserving System: MIOT</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="anomaly detection, IOT, medical, privacy, preserving" />
+	<meta name="author" content="Estherr" />
+
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="css/superfish.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="css/upload.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+		<div id="pps_miot-wrapper">
+		<div id="pps_miot-page">
+		<div id="pps_miot-header">
+			<header id="pps_miot-header-section">
+				<div class="container">
+					<div class="nav-header">
+						<h1 id="pps_miot-logo"><a href="index.html">PPS:<span>MIOT</span></a></h1>
+						<!-- START #pps_miot-menu-wrap -->
+						<nav id="pps_miot-menu-wrap" role="navigation">
+							<ul class="sf-menu" id="pps_miot-primary-menu">
+								<li >
+									<a href="index.html">Home</a>
+								</li>
+								<li class="active"><a href="upload.html">File Upload</a></li>
+								<li><a href="profile.html">Data owner</a></li>
+								<li><a href="server.html">Server</a></li>
+                                <li><a href="/"><span>logout</span></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>		
+		</div>
+		<!-- end:pps_miot-header -->
+		
+		<div id="pps_miot-schedule-section" class="pps_miot-lightgray-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<h2>Welcome to Data Receiver</h2>
+                        <p> Upload your desired medical internet of things data in order to perform encryption on it.</p>
+					</div>
+					<div class="col-md-8 col-md-offset-2">
+						<div class="upload-wrap">
+							<div class="upload-html">
+							  <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Choose File</label>
+							  <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Paste Link</label>
+							  <div class="upload-form">
+								<div class="sign-in-htm"> <br>
+									<div class="container">
+										<input type="file" class="upload_hide" id="upload_costum" multiple>
+										<label for="upload_costum"  class="upload_label">
+											<div class="image">
+												<img src="" alt="">
+											</div>
+											<i class="fas fa-cloud-upload-alt"></i>
+											<p class="drag_text">Drag & Drop to Upload File</p>
+											<p id="source"></p>
+											<button class="choose_file">Choose a File</button> 
+										</label>
+										<button class="delete_file"> Delete File</button>
+									</div>
+									<div class="wraps">
+										<button id="drag-button">Encrypt</button>
+										<button id="drag-button">Generate Key</button>
+										<button id="drag-button">Save</button>
+									</div>
+								</div>
+								<div class="sign-up-htm">
+									<div class="wrapper">
+										<header>
+										  <h2>File Uploader</h2>
+										  <p>Paste url of image, video, or pdf to download.</p>
+										</header>
+										<form action="#">
+										  <input type="url" placeholder="Paste file url" required>
+										  <button>Encrypt</button>
+										  <button>Generate Key</button>
+										  <button>Save</button>
+										</form>
+									  </div>
+								</div>
+							  </div>
+							</div>
+						  </div>
+
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<!-- fh5co-blog-section -->
+		<footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row copy-right">
+						<div class="col-md-6 col-md-offset-3 text-center">
+							<p>Copyright 2023  <a href="#">Estherr</a>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	
+
+	</div>
+	<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+
+	<!-- jQuery -->
+
+
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Superfish -->
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+
+	<!-- Main JS (Do not remove) -->
+    <script src="js/upload.js"></script>
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+

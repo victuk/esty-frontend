@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Privacy Preserving System: MIOT</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="anomaly detection, IOT, medical, privacy, preserving" />
+	<meta name="author" content="Estherr" />
+
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
+	
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+	<!-- Superfish -->
+	<link rel="stylesheet" href="css/superfish.css">
+    
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+
+    <link rel="stylesheet" href="css/profile.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+        <div id="pps_miot-header">
+			<header id="pps_miot-header-section">
+				<div class="container">
+					<div class="nav-header">
+						<h1 id="pps_miot-logo"><a href="index.html">PPS:<span>MIOT</span></a></h1>
+						<!-- START #pps_miot-menu-wrap -->
+						<nav id="pps_miot-menu-wrap" role="navigation">
+							<ul class="sf-menu" id="pps_miot-primary-menu">
+								<li >
+									<a href="index.html">Home</a>
+								</li>
+								<li><a href="upload.html">File Upload</a></li>
+								<li class="active"><a href="profile.html">Data owner</a></li>
+								<li><a href="server.html">Server</a></li>
+                                <li><a href="/"><span>logout</span></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>		
+		</div>
+
+		<div class="student-profile py-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="card shadow-sm">
+                    <div class="card-header bg-transparent text-center">
+                      <img class="profile_img" src="https://source.unsplash.com/600x300/?student"  alt="student dp">
+                      <h3>Ishmam Ahasan Samin</h3>
+                    </div>
+                    <div class="card-body">
+                      <p class="mb-0"><strong class="pr-1">Doctor ID:</strong>321000001</p>
+                      <p class="mb-0"><strong class="pr-1">Specialty:</strong>Gynacologist</p>
+                      <p class="mb-0"><strong class="pr-1">Section:</strong>A</p>
+                      <div class="url">
+                          <a href="editprofile.html">Settings</a>
+                          <hr align="center">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="card shadow-sm">
+                    <div class="card-header bg-transparent border-0">
+                      <h3 class="mb-0"><i class="far fa-clone pr-1"></i>General Information</h3>
+                    </div>
+                    <div class="card-body pt-0">
+                      <table  class="table table-bordered">
+                        <tr>
+                          <th width="30%">Name</th>
+                          <td width="2%">:</td>
+                          <td>125</td>
+                        </tr>
+                        <tr>
+                          <th width="30%">Email	</th>
+                          <td width="2%">:</td>
+                          <td>2020</td>
+                        </tr>
+                        <tr>
+                          <th width="30%">Gender</th>
+                          <td width="2%">:</td>
+                          <td>Male</td>
+                        </tr>
+                        <tr>
+                          <th width="30%">Hospital</th>
+                          <td width="2%">:</td>
+                          <td>Group</td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                    <div style="height: 26px"></div>
+                  <div class="card shadow-sm">
+                    <div class="card-header bg-transparent border-0">
+                      <h3 class="mb-0"><i class="far fa-clone pr-1"></i>Uploaded files</h3>
+                    </div>
+                    <div class="card-body pt-0">
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>ID</th>
+                                <th>File</th>
+                                <th>Timestamp</th>
+                            </tr>
+                        </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+		
+		<!-- fh5co-blog-section -->
+		<footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row copy-right">
+						<div class="col-md-6 col-md-offset-3 text-center">
+							<p>Copyright 2023  <a href="#">Estherr</a>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	
+
+	</div>
+	<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+
+	<!-- jQuery -->
+
+	<script src="js/allHelpers.js"></script>
+
+	<script>
+		async function loadProfile() {
+			const user = await req.get(mainRoute("users/profile"));
+
+			console.log(user);
+
+		}
+		loadProfile();
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Superfish -->
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+

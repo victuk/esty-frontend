@@ -1,0 +1,29 @@
+.face {
+  display: grid;
+  place-content: center;
+  margin: 0;
+  min-height: 100vh;
+  /* background: #f0f0f0; */
+}
+
+/* video {
+  opacity: 0;
+} */
+
+#pps_miot-header-section {
+    background-color: #4ca2cd;
+}
+
+video, canvas {
+  background: #fff;
+  object-fit: cover;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 100px -50px #000;
+}
